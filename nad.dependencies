@@ -1,0 +1,14 @@
+[
+ {
+   "repository": "NusantaraROM-Devices/kernel_xiaomi_riva",
+   "target_path": "kernel/xiaomi/msm8917",
+   "branch": "10",
+   "remote": "github" 
+ },
+ {
+  "repository": "NusantaraROM-Devices/vendor_xiaomi_riva",
+    "target_path": "vendor/xiaomi",
+    "branch": "10",
+    "remote": "github"
+ }
+]
