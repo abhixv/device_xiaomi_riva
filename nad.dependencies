@@ -1,8 +1,8 @@
 [
  {
-   "repository": "NusantaraROM-Devices/kernel_xiaomi_riva",
+   "repository": "anggialansori404/kernel_xiaomi_rova_sd425",
    "target_path": "kernel/xiaomi/msm8917",
-   "branch": "10",
+   "branch": "Mizu",
    "remote": "github" 
  },
  {
