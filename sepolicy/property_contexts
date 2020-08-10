@@ -1,1 +1,4 @@
 persist.graphics.vulkan.disable     u:object_r:graphics_vulkan_prop:s0
+
+# Dirac
+persist.audio.dirac.                u:object_r:dirac_prop:s0
