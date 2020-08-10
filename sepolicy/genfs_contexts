@@ -8,3 +8,4 @@ genfscon sysfs /devices/soc/7af5000.i2c/i2c-5/5-006b/power_supply   u:object_r:s
 # XiaomiParts
 genfscon sysfs /sys/kernel/sound_control/headphone_gain                     u:object_r:sysfs_headgain:s0
 genfscon sysfs /sys/kernel/sound_control/mic_gain                           u:object_r:sysfs_micgain:s0
+
