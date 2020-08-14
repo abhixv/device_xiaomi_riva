@@ -10,5 +10,17 @@
     "target_path": "vendor/xiaomi",
     "branch": "10",
     "remote": "github"
- }
+ },
+   {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraParts",
+    "target_path": "packages/apps/NusantaraParts",
+    "branch": "3.18"
+  },
+    {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraPapers",
+    "target_path": "packages/apps/NusantaraPapers",
+    "branch": "10"
+  }
 ]
