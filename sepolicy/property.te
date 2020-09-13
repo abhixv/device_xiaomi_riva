@@ -2,6 +2,3 @@ type qemu_hw_mainkeys_prop, property_type;
 
 # Dirac
 type dirac_prop, property_type;
-
-# Dolby
-type vendor_dolby_loglevel_prop, property_type;
