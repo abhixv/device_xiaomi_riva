@@ -84,10 +84,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=295 \
     vendor.display.enable_default_color_mode=1
 
-# Dolby
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.audio.dolby.ds2.enabled=true
-
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fm.transmitter=false
