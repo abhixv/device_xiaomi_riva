@@ -174,6 +174,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Memory management tweaks
+PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.fha_enable=true
 ro.sys.fw.bg_apps_limit=32
 ro.config.dha_cached_max=16
