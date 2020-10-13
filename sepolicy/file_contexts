@@ -43,6 +43,4 @@
 # Root filesystem
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 
-# FPS Info
-/sys/devices/virtual/graphics/fb0/measured_fps                              u:object_r:sysfs_fpsinfo:s0
 
