@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_riva.mk
+    $(LOCAL_DIR)/nad_riva.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_riva-user \
-    aosp_riva-userdebug \
-    aosp_riva-eng
+    nad_riva-user \
+    nad_riva-userdebug \
+    nad_riva-eng

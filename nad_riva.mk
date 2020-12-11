@@ -20,12 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common AOSP stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common Nusantara stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product-if-exists, device/bloatware/config.mk)
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_INCLUDE_STOCK_ARCORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+NAD_BUILD_TYPE := OFFICIAL
 
 # Inherit from riva device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -34,7 +33,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := riva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 5A
-PRODUCT_NAME := aosp_riva
+PRODUCT_NAME := nad_riva
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
