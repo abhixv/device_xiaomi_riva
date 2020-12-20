@@ -310,6 +310,7 @@ PRODUCT_PACKAGES += \
     Calculator \
     Clock \
     GCam \
+    GalleryGo \
     RetroMusic \
     ViaBrowser
 
