@@ -22,7 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common Nusantara stuff
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
-$(call inherit-product-if-exists, device/bloatware/config.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 NAD_BUILD_TYPE := OFFICIAL
 
