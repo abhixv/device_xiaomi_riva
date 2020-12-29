@@ -10,5 +10,11 @@
     "target_path": "vendor/xiaomi/riva",
     "branch": "11",
     "remote": "github"
+ },
+ {
+    "remote": "priv",
+    "repository": "android_packages_apps_NusantaraParts",
+    "target_path": "packages/apps/NusantaraParts",
+    "branch": "11-4.9"
  }
 ]
