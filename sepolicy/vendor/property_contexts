@@ -1,2 +1,5 @@
 persist.graphics.vulkan.disable     u:object_r:graphics_vulkan_prop:s0
 wifi.active.interface               u:object_r:wifi_prop:s0
+
+# Camera
+persist.camera.debug.logfile       u:object_r:camera_prop:s0
