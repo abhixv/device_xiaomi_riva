@@ -317,6 +317,11 @@ vendor/lib/libMpeg4SwEncoder.so|971eb18b4209287f7c078c082508ebc46c11de0e
 vendor/lib/libOmxSwVdec.so|c1375674bd80792581bb297525fe932ef050424b
 vendor/lib/libOmxSwVencMpeg4.so|024bde5984f312b398d0ae172df7d8fb2db279bc
 
+# Media - from LA.UM.9.6.2.r1-03300-89xx.0
+system_ext/lib/libmmosal.so|8c7f0a071f84ec2ac9522bf448cb902a3ece2405
+system_ext/lib64/libmmosal.so|ef19a38be8283c87eabe96f74bc8a71881ab1f0a
+vendor/lib/libmmosal.so|e23d6d1b2a035c08ffd7ac72d5241ebff37f0d14
+
 # Perf - from olive - QKQ1.191014.001 V11.0.1.0.QCNCNXM
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|2112f2d6d3a6b256257d0e400ef86148f5dfb115
 vendor/bin/msm_irqbalance|13ed8694ff5afe07b6e984e5d4424cdcfaafa126
