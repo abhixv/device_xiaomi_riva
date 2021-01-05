@@ -124,7 +124,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     libtinyxml \
-    memtrack.msm8937
+    memtrack.msm8937 \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -306,7 +308,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Calculator \
     Clock \
-    GalleryGo \
     RetroMusic \
     ViaBrowser
 
