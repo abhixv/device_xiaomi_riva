@@ -259,7 +259,8 @@ PRODUCT_PACKAGES += \
     libOmxSwVencHevc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libavservices_minijail.vendor
 
 # Perf
 PRODUCT_COPY_FILES += \
