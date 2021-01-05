@@ -1,0 +1,6 @@
+# Zram service
+type zram, domain;
+type zram_exec, exec_type, file_type;
+
+allow qti_init_shell zram_exec:file { read open execute_no_trans };
+init_daemon_domain(zram) 
