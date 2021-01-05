@@ -508,3 +508,7 @@ vendor/lib/libwfdhdcpcp.so|0b8a69106f573a013479b231064c94b539c15e14
 vendor/lib/libwfddisplayconfig_proprietary.so|a3a23a87c0a531f887302bf9edeab90f7a68fcd8
 vendor/lib/libwfdmmservice.so|ccdf23feee6f25493297cab321003a2b11177027
 vendor/lib/libwfdmodulehdcpsession.so|0a6c514bb4436afae023801cf0bd4f07d0d0b6b7
+
+# Wifi Display - from redfin rd1a.201105.003.c1
+vendor/lib/libdisplayconfig.qti.so|b7ca26de35037aa1a01124b7aae9c95be5247246
+vendor/lib64/libdisplayconfig.qti.so|dd5c86218edd8a785a079f648c36db72c773cbfc
