@@ -1,3 +1,4 @@
 allow gmscore_app hal_memtrack_default:binder call;
+allow gmscore_app exported_camera_prop:file { read };
 
 dontaudit gmscore_app firmware_file:filesystem getattr;
