@@ -146,6 +146,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IMapper</name>
             <instance>default</instance>
         </interface>
+        	<fqname>@3.0::IMapper/default</fqname>
+        <fqname>@4.0::IMapper/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.health</name>
@@ -386,6 +388,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <version>1.0</version>
         <interface>
             <name>ILinkLatency</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.qti.hardware.fm</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IFmHci</name>
             <instance>default</instance>
         </interface>
     </hal>
