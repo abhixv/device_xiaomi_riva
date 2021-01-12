@@ -83,6 +83,10 @@ on early-boot
     write /sys/bus/msm_subsys/devices/subsys4/restart_level "related"
 
 on boot
+    chown system system /sys/kernel/hbtp/display_pwr
+    chown system system /sys/devices/system/cpu/cpu0/sched_prefer_idle
+    write /sys/devices/system/cpu/cpu0/sched_prefer_idle 0
+
 # Vibration
     chown system system /sys/devices/virtual/timed_output/vibrator/vtg_level
     chmod 0660 /sys/devices/virtual/timed_output/vibrator/vtg_level
