@@ -1,7 +1,8 @@
 allow init sysfs_devices_system_cpu:dir r_dir_perms;
 allow init sysfs_leds:lnk_file read;
 # Allow init to chown/chmod on pseudo files in /sys
-allow init sysfs_type:file { setattr };
+allow init sysfs_type:file setattr;
+allow init proc:file setattr;
 
 # Allow init to write to sysfs_battery_supply
-allow init sysfs_battery_supply:file { setattr }; 
+allow init sysfs_battery_supply:file setattr; 

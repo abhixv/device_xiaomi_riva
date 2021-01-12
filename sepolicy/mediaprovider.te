@@ -1,0 +1,3 @@
+allow mediaprovider mnt_media_rw_file:dir getattr;
+allow mediaprovider tmpfs:file setattr;
+allow mediaprovider gpuservice:binder call;

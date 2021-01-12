@@ -15,3 +15,4 @@ allow system_app sysfs_micgain:file rw_file_perms;
 allow system_app sysfs_torch:dir search;
 allow system_app sysfs_torch:file rw_file_perms;
 allow system_app sysfs_leds:dir search;
+allow system_app hal_imsrcsd_hwservice:hwservice_manager { find };
