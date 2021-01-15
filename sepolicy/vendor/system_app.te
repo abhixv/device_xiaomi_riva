@@ -1,5 +1,11 @@
 allow system_app proc_vmallocinfo:file r_file_perms;
 allow system_app sysfs_leds:dir { search };
+allow system_app sysfs_fpsinfo:file { read };
+allow system_app sysfs_fpsinfo:file rw_file_perms;
+allow system_app sysfs_fpsinfo:dir search;
+
+# FPS tile
+allow system_app sysfs:file { getattr };
 
 # ZRAM
 r_dir_file(system_app sysfs_zram)

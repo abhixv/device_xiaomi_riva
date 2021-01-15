@@ -46,8 +46,9 @@
 /firmware(/.*)?                                 u:object_r:firmware_file:s0
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
-# FPS Info
-/sys/devices/virtual/graphics/fb0/measured_fps           u:object_r:sysfs_fpsinfo:s0
+
+# FPS tile
+/sys/devices/virtual/graphics/fb0/measured_fps                         u:object_r:sysfs_fpsinfo:s0
 
 # Kcal
 /sys/devices/platform/kcal_ctrl.0(/.*)?         u:object_r:kcal_dev:s0
