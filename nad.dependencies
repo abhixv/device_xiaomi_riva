@@ -7,7 +7,7 @@
   },
  {
   "repository": "NusantaraROM-Devices/vendor_xiaomi_riva",
-    "target_path": "vendor/xiaomi/riva",
+    "target_path": "vendor/xiaomi",
     "branch": "10",
     "remote": "github"
  }
