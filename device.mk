@@ -121,7 +121,9 @@ PRODUCT_PACKAGES += \
     libdisplayconfig \
     libqdMetaData.system \
     libtinyxml \
-    memtrack.msm8937
+    memtrack.msm8937 \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -420,6 +422,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
+
+# Wi-Fi Display
+PRODUCT_PACKAGES += \
+    libnl \
+    libqdMetaData \
+    libqdMetaData.vendor
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # WiFi
 PRODUCT_PACKAGES += \
