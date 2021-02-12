@@ -20,14 +20,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Include Nusantara Parts
-$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
+//# Include Nusantara Parts
+//$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 
 # Inherit some common Nusantara stuff
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
-NAD_BUILD_TYPE := OFFICIAL
-USE_PIXEL_CHARGING := true
+//NAD_BUILD_TYPE := OFFICIAL
+//USE_PIXEL_CHARGING := true
 
 # Inherit from riva device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -36,7 +36,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := riva
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 5A
-PRODUCT_NAME := nad_riva
+PRODUCT_NAME := aosip_riva
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
